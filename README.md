@@ -9,7 +9,6 @@
 
  ```
 npm i
-
  ```
  
  Para comilar o projeto:
