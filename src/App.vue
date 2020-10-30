@@ -131,7 +131,7 @@
   </v-app>
 </template>
 <script>
-import axios from "axios";
+import { getPeople } from "@/services";
 import loading from "@/components/loading.vue";
 export default {
   components: { loading },
@@ -149,11 +149,8 @@ export default {
     async getLukeSkywalker() {
       // essa variável loading serve para controlar a tela de loading, true ligada, false desligada
       this.loading = true;
-      const { data } = await axios.get(
-        "https://swapi.co/api/people/1/?format=json"
-      );
-      this.Luke = data;
-      console.log(data);
+      let luke = await getPeople(1); // vamos passar o id do Luke da api
+      this.Luke = luke; // vamos atribuir o dado do personagem na variavel do template
       this.loading = false;
       // expand controla o componete do vuetify, framework visual, que esconde conteudo.
       this.expand = true;
