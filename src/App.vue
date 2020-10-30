@@ -14,8 +14,8 @@
                 Seja bem vindo futuro super estagiário a nave Mercadou. Nós da
                 equipe de Desenvolvimento e Tecnologia somos fãs de star wars
                 <s>(50% da equipe é)</s> e achamos uma API muito maneira para
-                desafiar os mochileiros vindo da AU.
-                <a href="https://swapi.co/" target="_blank"
+                desafiar os novos estagiários.
+                <a href="https://swapi.dev/" target="_blank"
                   ><b>STAR WARS API (SWAPI)</b></a
                 >, é uma api que contém informações do universo da franquia SW,
                 e queremos fazer um desafio com base nos dados da SWAPI. Para
@@ -84,42 +84,48 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <p class="text-justify">
-                Han Solo (https://swapi.co/api/people/14/) está levando 98% da
-                capacidade da Nave Millennium Falcon
-                (https://swapi.co/api/starships/10/) em carga, ele vai pousar em
-                um planeta aleatório e pegar 6 passageiros, 5 passageiros são
-                personagens aleatórios do filme: "A nova esperança"
-                (https://swapi.co/api/films/1/), sendo que você, é o sexto
-                passageiro. O desafio é consumir todas essas informações da api,
-                ter uma entrada de dado que é referente ao seu peso e verificar
-                se a Nave excedeu o capacidade limite.
+                George Lucas procurou uma start-up carioca para fazer um projeto
+                relacionado à franquia de seus filmes. Ele pediu uma aplicação
+                web, onde possa ver um catálogo dos filmes disponíveis na SWAPI
+                (https://swapi.dev). Ele quer visualizar os filmes presentes na
+                api (<i>https://swapi.dev/api/films/ID_DO_FILME/)</i>, onde cada
+                filme tem que ter <b>pelo menos</b>, as seguintes informações
+                exibidas: Nome do filme, nome do diretor, nome do
+                produtor,numero do filme e a data de lançamento. Dentro da lista
+                de filme, George também pediu uma lista dos personagens que
+                aparecem em cada filme (<i
+                  >DICA: array characters tem o end point de cada personagem
+                  ;D</i
+                >). Essa lista de personagem, tem que ter <b>pelo menos</b> os
+                seguintes dados dos personagens: Nome do personagem,altura,
+                massa, cor do cabelo,cor da pele, cor dos olhos,data de
+                nascimento, e genero.
               </p>
               <li>
-                - Você tem que usar javascript para realizar esse desafio, pode
-                utilizar qualquer framework da linguagem se preferir;
+                - Você tem que usar um framework front-end do javascript para
+                realizar esse desafio.
               </li>
               <li>
                 - O código deve está comentado, explicado seus passos em cada
                 etapa;
               </li>
               <li>
-                - Deve haver um campo de entrada para informar seu peso
+                - Você pode consumir qualquer outro recurso, seja uma api ou
+                montar uma pasta utils, qualquer coisa que vá ajudar na sua
+                criatividade e elaboração do projeto.
               </li>
               <li>
-                - Considere, que todos os valores referente a peso na SWAPI são
-                em KG.
-              </li>
-              <li>
-                - Você pode fazer uma pagina web para mostrar o resultado do
+                - Você deve montar uma pagina web para mostrar o resultado do
                 desafio, você está livre pra usar a criatividade de como vai
                 resolver o problema seguindo as instruções.
               </li>
               <li>
                 - O código deve ser enviado para o email:
-                <b>maia@mercadou.com.br</b> contendo o link do repositório do
-                projeto. Para evitar cola, seguerimos que você coloque o nome do
-                seu repositório usando a codigicação MD5. Exemplo: Meu nome é
-                Gustavo Garcia, meu repositório vai ficar: <b>Gust4v0G4rci4</b>
+                <b>tecnologia@mercadou.com.br</b> contendo o link do repositório
+                do projeto. Para evitar cola, seguerimos que você coloque o nome
+                do seu repositório usando a codificação vogal por numero.
+                Exemplo: Meu nome é Gustavo Garcia, meu repositório vai ficar:
+                <b>Gust4v0G4rci4</b>
               </li>
             </v-expansion-panel-content>
           </v-expansion-panel>
@@ -168,6 +174,9 @@ h3 {
 }
 .found {
   padding: 15px;
+}
+b {
+  color: orange;
 }
 body {
   color: white;
