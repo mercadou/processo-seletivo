@@ -72,7 +72,7 @@
               </center>
               <v-expand-transition>
                 <v-card v-show="expand" class="mx-auto">
-                  <h3 class="found">{{ Luke.name }} foi econtrado</h3>
+                  <h3 class="found">{{ Luke.name }} foi encontrado</h3>
                 </v-card>
               </v-expand-transition>
             </v-expansion-panel-content>
@@ -102,6 +102,11 @@
                 nascimento, e genero.
               </p>
               <li>
+                - Você deve montar uma pagina web para mostrar o resultado do
+                desafio, você está livre pra usar a criatividade de como vai
+                resolver o problema seguindo as instruções.
+              </li>
+              <li>
                 - Você tem que usar um framework front-end do javascript para
                 realizar esse desafio.
               </li>
@@ -113,11 +118,6 @@
                 - Você pode consumir qualquer outro recurso, seja uma api ou
                 montar uma pasta utils, qualquer coisa que vá ajudar na sua
                 criatividade e elaboração do projeto.
-              </li>
-              <li>
-                - Você deve montar uma pagina web para mostrar o resultado do
-                desafio, você está livre pra usar a criatividade de como vai
-                resolver o problema seguindo as instruções.
               </li>
               <li>
                 - O código deve ser enviado para o email:

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f344ce844e777b88228fab6a3e895bcb.js"
+  "/precache-manifest.edbfac4da3aa9ef5f18983e41b6bce93.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "processo-seletivo-mercadou"});
